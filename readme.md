@@ -124,7 +124,7 @@ git push <NOMEDOREMOTO> <NOMEDOBRANCH>
 
 ### Renomear branch
 
-Só é possível renomear branch de forma local, para renomear um branch remoto, altere a branch local, exclua o branch remoto e reenvie as modificações.
+Para renomear um branch remoto, altere a branch local, exclua o branch remoto e reenvie as modificações. Também é possível alterar o nome do branch remoto pela interface do github.
 
 #### Renomear branch atual
 
