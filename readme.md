@@ -122,6 +122,22 @@ git remote -v
 git push <NOMEDOREMOTO> <NOMEDOBRANCH>
 ```
 
+### Renomear branch
+
+Só é possível renomear branch de forma local, para renomear um branch remoto, altere a branch local, exclua o branch remoto e reenvie as modificações.
+
+#### Renomear branch atual
+
+```bash
+git branch -m "novo-nome"
+```
+
+#### Renomear outra branch
+
+```bash
+git branch -m "nome-antigo" "novo-nome"
+```
+
 ### Remover branch do remoto
 
 ```bash
