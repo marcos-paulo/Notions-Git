@@ -5,97 +5,141 @@
 ### Criar uma nova pasta (criar um diretório)
 
 ```bash
-mkdir <NOMEDAPASTA>
+$ mkdir <NOMEDAPASTA>
 ```
 
 ### Navegar para dentro desta pasta (mudar de diretório)
 
 ```bash
-cd <NOMEDAPASTA>
+$ cd <NOMEDAPASTA>
 ```
 
 ### Listar os itens dentro de um diretório
 
 ```bash
-ls
+$ ls
 ```
 
 # GIT
 
+```bash
+pesquisar sobre STASH no git
+
+```
+
 ### Inicializa o Git em uma pasta
 
 ```bash
-git init
+$ git init
 ```
 
 ### Checar o estado das mudanças em um repositório
 
 ```bash
-git status
+$ git status
 ```
 
 ### Ver mudanças em arquivos
 
 ```bash
-git diff
+$ git diff
 ```
 
 ### Preparar um arquivo para ser commitado
 
 ```bash
-git add <NOMEDOARQUIVO>
+$ git add <NOMEDOARQUIVO>
 ```
 
 ### Preparar para commit todos os arquivos que foram modificados
 
 ```bash
-git add .
+$ git add .
 ```
 
 ### Para fazer commit ("salvar") as mudanças que você fez com uma curta mensagem de descrição
 
 ```bash
-git commit -m "sua mensagem de commit"
+$ git commit -m "sua mensagem de commit"
 ```
 
 # Configuração GIT
 
 A seguir, configure o Git de forma que ele saiba quem você é:
 
+## Configurações Globais
+
 ### Defina seu nome:
 
 ```bash
-git config --global user.name "Seu nome"
+$ git config --global user.name "Seu nome"
 ```
 
 ### Defina seu email:
 
 ```bash
-git config --global user.email "seu.email@example.com"
+$ git config --global user.email "seu.email@example.com"
 ```
 
 ### Adicione seu nome de usuário GitHub:
 
 ```bash
-git config --global user.username <USUARIO>
+$ git config --global user.username <USUARIO>
 ```
 
 ### Você pode checar novamente o que você colocou na sua configuração Git digitando:
 
 ```bash
-git config --global user.username
+$ git config --global user.username
 ```
+
+### Definir o vscode como editor padrão do GIT
+
+No `code --wait` a opcao `--wait` serve para que o terminal aguarde ate que a janela do vscode seja fechada para que o comando dado ao GIT prossiga adiante.
+
+```bash
+$ git config --global core.editor "code --wait"
+```
+
+Use o comando:
+
+```bash
+$ git config --global -e
+```
+
+para abrir o arquivo de configuração globais do git, que após a configuração do editor deve acontecer no vscode.
+
+A partir de agora qualquer arquivo de configuração do git ou mesmo os arquivos de commit definidos pelo comando `$ git commit` serão abertos no vscode.
+
+## Como definir o Visual Studio Code como seu difftool
+
+Se você também quiser fazer com que o Visual Studio Code vire sua ferramenta de difftool padrão, você precisa entrar no arquivo de configuração global do Git, utilizando do comando `$ git config –global -e` mencionado anteriormente, adicione ou substitua as seguintes entradas ao arquivo abero:
+
+```
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+```
+
+Após salvar e fechar o arquivo você será capaz de ver diferenças em arquivos com o git diretamento no vscode utilizando o comando:
+
+```bash
+$ git difftool <EXEMPLO>~1 <EXEMPLO>
+```
+
+## Remotos
 
 ### Adicionar remotos
 
 ```bash
-git remote add <NOMEDOREMOTO> <URL>
+$ git remote add <NOMEDOREMOTO> <URL>
 ```
 
 ### Remover remotos
 
 ```bash
-git remote rm <NOMEDOREMOTO>
+$ git remote rm <NOMEDOREMOTO>
 ```
 
 ### Mudar o URL de um remoto
