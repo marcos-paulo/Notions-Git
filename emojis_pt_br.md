@@ -4,9 +4,9 @@
 | Adicione tag de versão                                               | :bookmark: `:bookmark:`                                   |
 | Novo recurso                                                         | :sparkles: `:sparkles:`                                   |
 | Implante (Alguma coisa nova)                                         | :rocket: `:rocket:`                                       |
-| Adicione ou atualize a documentação.                                 | :memo: `:memo:`                                           |
-| Adicione ou atualize comentários no código-fonte.                    | :bulb: `:bulb:`                                           |
-| Adicione ou atualize a interface do usuário e os arquivos de estilo. | :lipstick: `:lipstick:`                                   |
+| [Adicione/Atualize] a documentação.                                  | :memo: `:memo:`                                           |
+| [Adicione/Atualize] comentários no código-fonte.                     | :bulb: `:bulb:`                                           |
+| [Adicione/Atualize] a interface do usuário e os arquivos de estilo.  | :lipstick: `:lipstick:`                                   |
 | Melhore a estrutura/formato do código.                               | :art: `:art:`                                             |
 | Melhore o desempenho                                                 | :racehorse: `:racehorse:`                                 |
 | Adicione, atualize ou passe nos testes.                              | :white_check_mark: `:white_check_mark:`                   |
@@ -15,7 +15,7 @@
 | Adicione metadados                                                   | :card_index: `:card_index:`                               |
 | Corrija os avisos do compilador/linter.                              | :rotating_light: `:rotating_light:`                       |
 | Atualização geral                                                    | :zap: `:zap:`                                             |
-| Adicione ou atualize scripts de desenvolvimento.                     | :hammer: `:hammer:`                                       |
+| [Adicione/Atualize] scripts de desenvolvimento.                      | :hammer: `:hammer:`                                       |
 | Remova [códigos,arquivos]                                            | :fire: `:fire:`                                           |
 | Integração Contínua                                                  | :green_heart: `:green_heart:`                             |
 | Corrija problemas de segurança                                       | :lock: `:lock:`                                           |
@@ -27,13 +27,13 @@
 | Trabalho em andamento                                                | :construction: `:construction:`                           |
 | Remova uma dependência                                               | :heavy_minus_sign: `:heavy_minus_sign:`                   |
 | Adicione uma dependência                                             | :heavy_plus_sign: `:heavy_plus_sign:`                     |
-| Adicione ou atualize arquivos de configuração.                       | :wrench: `:wrench:`                                       |
+| [Adicione/Atualize] arquivos de configuração.                        | :wrench: `:wrench:`                                       |
 | Package.json em JS                                                   | :package: `:package:`                                     |
 | Mesclar ramos.                                                       | :twisted_rightwards_arrows: `:twisted_rightwards_arrows:` |
 | Reverta alterações                                                   | :rewind: `:rewind:`                                       |
 | Alterações de revisão de código                                      | :ok_hand: `:ok_hand:`                                     |
 | Melhorar acessibilidade                                              | :wheelchair: `:wheelchair:`                               |
-| Adicione ou atualize um arquivo .gitignore.                          | :see_no_evil: `:see_no_evil:`                             |
+| [Adicione/Atualize] um arquivo .gitignore.                           | :see_no_evil: `:see_no_evil:`                             |
 | Escreva código ruim que precisa ser melhorado, Gambiarra             | :poop: `:poop:`                                           |
 | Refatore o código                                                    | :recycle: `:recycle:`                                     |
 | Corrige erros de digitação                                           | :pencil2: `:pencil2:`                                     |
